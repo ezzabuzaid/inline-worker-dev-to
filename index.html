@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+        <title>Flight</title>
+    </head>
+
+    <body>
+        <hr>
+        <section>
+            <h4>Without Web Worker</h4>
+            <div class="battery">
+                <div id="without-web-worker" class="liquid"></div>
+            </div>
+            <br><br>
+            <div>
+                <button onclick="startWithOutWebWorker()">Start</button>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h4>With Web Worker</h4>
+            <div class="battery">
+                <div id="with-web-worker" class="liquid"></div>
+            </div>
+            <br><br>
+            <button onclick="startWithWebWorker()">Start</button>
+        </section>
+        <hr>
+    </body>
+
+</html>
